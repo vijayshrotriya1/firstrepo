@@ -1,0 +1,14 @@
+pipeline{
+    //agent {label 'prod'}
+     agent any
+    stages{
+    stage('build'){
+       steps{
+           echo 'building my project"
+}
+     stage ('test'){
+      steps{
+       echo 'testing'     
+}
+}
+
